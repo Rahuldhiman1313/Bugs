@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import logox from "../images/logo.svg";
+import logox from "../images/logonv.png";
 import xxdv from "../images/md.gif";
 
 function Howtobuy() {

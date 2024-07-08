@@ -64,7 +64,7 @@ const Community = () => {
               </a>
               <a href="#">
                 <span>
-                  <i class="bi bi-twitter"></i>
+                <i class="bi bi-telegram"></i>
                 </span>
                 Telegram
               </a>

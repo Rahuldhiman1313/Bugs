@@ -1,5 +1,5 @@
 import React from "react";
-import logoxxx from "../images/Bugs-logo.svg";
+import logoxxx from "../images/logofoot.png";
 function Footer() {
   return (
     <section className="footer">
@@ -37,7 +37,7 @@ function Footer() {
               <div class="Feels" data-aos="fade-up" data-aos-duration="1500">
                 <a href="#">
                   <span>
-                    <i class="bi bi-twitter"></i>
+                  <i class="bi bi-telegram"></i>
                   </span>
                   Telegram
                 </a>

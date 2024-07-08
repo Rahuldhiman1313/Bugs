@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
-import logo from "../images/logo.svg";
+import logo from "../images/logonv.png";
 import { X } from "lucide-react";
 
 export const Navbar = () => {
