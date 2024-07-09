@@ -35,7 +35,7 @@ function Banner() {
             </div>
           </div>
           <div className="col-12 col-sm-6 col-md-6 col-lg-6 align-self-end">
-            <div className="rise-up">
+            <div className="rise-up fadein fadein--one">
               <img src={rabbit} className="img-fluid" alt="rabbit" />
             </div>
           </div>

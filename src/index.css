@@ -1572,137 +1572,46 @@ nav#menu {
 
 
 /*---- Animaction ---- */
-
-@keyframes slideInUp {
-  0% {
-    opacity: 0;
-    transform: translateY(25%);
-  }
-  100% {
-    opacity: 1;
-    transform: none;
-  }
-}
-@keyframes slideInDown {
-  0% {
-    opacity: 0;
-    transform: translateY(-25%);
-  }
-  100% {
-    opacity: 1;
-    transform: none;
-  }
-}
-@keyframes slideInleft {
-  0% {
-    opacity: 0;
-    transform: translateX(25%);
-  }
-  100% {
-    opacity: 1;
-    transform: none;
-  }
-}
-@keyframes slideInRight {
-  0% {
-    opacity: 0;
-    transform: translateX(-25%);
-  }
-  100% {
-    opacity: 1;
-    transform: none;
-  }
-}
-
-@keyframes fadeIn {
-  0% {
+@keyframes fadein {
+  from {
     opacity: 0;
   }
-  100% {
+  to {
     opacity: 1;
   }
 }
 
-@keyframes zoomIn {
-  0% {
-    opacity: 0;
-    transform: scale(0.75);
-  }
-  100% {
-    opacity: 1;
-    transform: none;
-  }
-}
-@keyframes zoomReverseIn {
-  0% {
-    opacity: 0;
-    transform: scale(1.25);
-  }
-  100% {
-    opacity: 1;
-    transform: none;
-  }
-}
 
-@keyframes flipInY {
-  0% {
-    opacity: 0;
-    transform: perspective(90vw) rotateY(67.50deg);
-  }
-  100% {
-    opacity: 1;
-    transform: none;
-  }
-}
-
-[data-animation] {
+.fadein {
   opacity: 0;
-  animation-timing-function: var(--animation-timing-function);
-  animation-fill-mode: both;
-  animation-duration: var(--animation-duration);
-  will-change: transform, opacity;
+  animation: fadein ease-in 1;
+  animation-fill-mode: forwards;
+  animation-duration: 1s;
 }
 
-
-.animations-disabled {
-  &,
-  [data-animation] {
-    animation: none !important;
-    opacity: 1 !important;
-  }
+.fadein--one {
+  animation-delay: .2s;
 }
 
-.slideInUp {
-  animation-name: slideInUp;
-}
-.slideInDown {
-  animation-name: slideInDown;
-}
-.slideInLeft {
-  animation-name: slideInleft;
-}
-.slideInRight {
-  animation-name: slideInRight;
+.fadein--two {
+  animation-delay: .3s;
 }
 
-.fadeIn {
-  animation-name: fadeIn;
-}
-.zoomIn {
-  animation-name: zoomIn;
-}
-.zoomReverseIn {
-  animation-name: zoomReverseIn;
+.fadein--three {
+  animation-delay: .4s;
 }
 
-.flipInY {
-  animation-name: flipInY;
-}
-.flipOutY {
-  animation-name: flipInY;
-  animation-direction: reverse;
+.fadein--four {
+  animation-delay: .5s;
 }
 
+.fadein--five {
+  animation-delay: .6s;
+}
+
+.fadein--six {
+  animation-delay: .7s;
+}
 
 /*---- Animaction ---- */
 
